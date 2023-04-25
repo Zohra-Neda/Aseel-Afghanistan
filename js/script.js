@@ -70,7 +70,7 @@ const ShoppingData = [
   },
 ];
 
-for (let i = 0; i < ShoppingData.length; i++) {
+for (let i = 0; i < ShoppingData.length; i += 1) {
   const shoppingData = ShoppingData[i];
 
   const shoppingDiv = document.createElement('div');
