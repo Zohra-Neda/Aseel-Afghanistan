@@ -1,0 +1,315 @@
+
+#logo {
+  max-width: 100%;
+  height: 40px;
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  margin-left: 5rem;
+}
+
+.nav-link:hover {
+  color: #ec5242;
+}
+
+.hr-title {
+  height: 3rem;
+  border-bottom: 2px solid #ec5242;
+}
+
+.ReadMoreBtn {
+  color: #272a31;
+  width: 100%;
+  text-align: center;
+  border: 3px solid #ededed;
+  padding: 1rem 4rem;
+  font-weight: bold;
+}
+
+.overlay-effect {
+  background-color: #ec5242;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+}
+
+.aseel-name {
+  color: #ec5242;
+  border: 5px solid #ec5242;
+}
+
+.first-section {
+  width: 100%;
+  height: 600px;
+  background-image: url('../images/header.png');
+}
+
+.h1-title {
+  background-image: url('../images/font.jpg');
+  background-size: cover;
+  -webkit-background-clip: text;
+  display: inline-block;
+  -webkit-text-fill-color: transparent;
+}
+
+.first-p {
+  width: 100%;
+  border: 2px solid #fff;
+  padding: 1rem;
+}
+
+.h4-title {
+  font-size: 1.8rem;
+  color: darkgray;
+}
+
+.second-section {
+  width: 100%;
+  height: auto;
+  background-color: #272a31;
+}
+
+.card {
+  background-color: black;
+  width: 90%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 0;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  text-align: center;
+}
+
+.icons {
+  font-size: 3rem;
+  padding-top: 1rem;
+  color: #fff;
+}
+
+.img-border {
+  width: 5rem;
+  height: 5rem;
+}
+
+.aseel-images {
+  position: relative;
+  max-width: 10rem;
+}
+
+.aseel-img-container {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 9rem;
+}
+
+.aseel-img {
+  width: 100%;
+  height: 10rem;
+}
+
+.img-content {
+  width: 100%;
+  height: auto;
+  margin-left: 7rem;
+}
+
+.fourth-section {
+  background-color: #272a31;
+  width: 100%;
+  height: 400px;
+}
+
+.media-img {
+  width: 80%;
+  height: 60%;
+  filter: brightness(50%);
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+}
+
+.footer-img {
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (min-width: 786px) {
+  #navbarNav {
+    margin-left: 26rem;
+  }
+
+  .nav-item {
+    padding-right: 3rem;
+  }
+
+  .first-navbar-list {
+    display: flex;
+    justify-content: end;
+  }
+
+  #black-navbar {
+    background-color: #272a31;
+  }
+
+  .navbar-brand {
+    color: #fff;
+  }
+
+  .active {
+    color: #ec5242;
+    text-decoration: none;
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  }
+
+  .ReadMoreBtn {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    top: 7rem;
+  }
+
+  #logo {
+    max-width: 100%;
+    height: 40px;
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    margin-left: 16rem;
+  }
+
+  .aseel-name {
+    color: #272a31;
+    border: none;
+  }
+
+  #black-navbar {
+    order: 1;
+
+    --bs-bg-opacity: 1;
+
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity));
+  }
+
+  .navbar-brand {
+    color: #272a31;
+  }
+
+  .active {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .navbar-collapse {
+    padding-left: 1rem;
+  }
+
+  .card-p {
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    width: 80%;
+  }
+
+  .icons {
+    padding-left: 1rem;
+  }
+
+  .card-title {
+    margin-left: 22px;
+  }
+
+  .ReadMoreBtn {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #d3d3d3;
+  }
+
+  .card-btn {
+    background-color: #ec5242;
+    text-decoration: none;
+    padding: 2rem 4rem;
+    font-weight: bold;
+  }
+
+  .bg-body-tertiary {
+    margin-top: 0;
+  }
+
+  #header {
+    margin-top: -6rem;
+    background: transparent;
+  }
+
+  .mobile-navbar-nav {
+    padding-top: 6rem;
+  }
+
+  .first-section {
+    padding-top: 5rem;
+  }
+
+  .about-content {
+    width: 100%;
+  }
+}
+
+.about-p {
+  width: 100%;
+  height: auto;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+
+.second-section-about {
+  border: 1px solid #d3d3d3;
+}
+
+.about-aseel-logo {
+  height: 170px;
+  border: 1px solid #d3d3d3;
+}
+
+.about-img-container {
+  position: relative;
+}
+
+.about footer {
+  width: 100%;
+  height: 350px;
+  background-color: #272a31;
+}
+
+.first-color {
+  color: #ec5242;
+}
+
+.second-color {
+  color: #d3d3d3;
+}
+
+.third-color {
+  color: #fff;
+}
+
+.fourth-color {
+  color: #272a31;
+}
