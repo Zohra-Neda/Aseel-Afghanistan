@@ -242,6 +242,13 @@ footer {
     margin-bottom: 1rem;
     border: 1px solid #d3d3d3;
   }
+
+  .card-btn {
+    background-color: #ec5242;
+    text-decoration: none;
+    padding: 2rem 4rem;
+    font-weight: bold;
+  }
 }
 
 .about-p {
