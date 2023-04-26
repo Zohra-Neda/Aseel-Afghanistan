@@ -177,7 +177,7 @@ footer {
 
   .navbar-toggler {
     position: absolute;
-    top: 1rem;
+    top: 7rem;
   }
 
   #logo {
@@ -185,7 +185,7 @@ footer {
     height: 40px;
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
-    margin-left: 21rem;
+    margin-left: 16rem;
   }
 
   .aseel-name {
@@ -249,6 +249,27 @@ footer {
     padding: 2rem 4rem;
     font-weight: bold;
   }
+
+  .bg-body-tertiary {
+    margin-top: 0;
+  }
+
+  #header {
+    margin-top: -6rem;
+    background: transparent;
+  }
+
+  .mobile-navbar-nav {
+    padding-top: 6rem;
+  }
+
+  .first-section {
+    padding-top: 10rem;
+  }
+
+  .about-content {
+    width: 100%;
+  }
 }
 
 .about-p {
@@ -263,7 +284,6 @@ footer {
 }
 
 .about-aseel-logo {
-  width: 40%;
   height: 170px;
   border: 1px solid #d3d3d3;
 }
